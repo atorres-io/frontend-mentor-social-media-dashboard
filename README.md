@@ -1,6 +1,6 @@
-# Frontend Mentor - Chat app CSS illustration
+# Frontend Mentor - Social media dashboard with theme switcher solution
 
-aa
+This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -18,7 +18,11 @@ aa
 
 ### The challenge
 
-aa
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Toggle color theme to their preference
 
 ### Screenshot
 
@@ -27,8 +31,8 @@ aa
 
 ### Links
 
-- Solution URL: [Github URL here]()
-- Live Site URL: [Live Site URL here]()
+- Solution URL: [Github URL here](https://github.com/atorres-io/frontend-mentor-social-media-dashboard)
+- Live Site URL: [Live Site URL here](https://frosty-brown-faa722.netlify.app)
 
 ## My process
 
