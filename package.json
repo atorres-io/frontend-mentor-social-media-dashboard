@@ -1,0 +1,34 @@
+{
+	"name": "frontend-mentor-social-media-dashboard",
+	"version": "1.0.0",
+	"description": "Frontend Mentor challenge on a dashboard",
+	"private": false,
+	"main": "app.js",
+	"scripts": {
+		"prod": "sass sources/assets/styles/scss/import.scss:sources/assets/styles/css/import.css --style compressed",
+		"dev": "sass --watch sources/assets/styles/scss/import.scss:sources/assets/styles/css/import.css --style compressed"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/atorres-io/frontend-mentor-social-media-dashboard.git"
+	},
+	"keywords": [
+		"HTML5",
+		"CSS3",
+		"JavaScript",
+		"ES6",
+		"BEM",
+		"ITCSS",
+		"SASS",
+		"Frontend Mentor",
+		"Challenge"
+	],
+	"author": "Alejandro Torres",
+	"bugs": {
+		"url": "https://github.com/atorres-io/frontend-mentor-social-media-dashboard/issues"
+	},
+	"homepage": "https://github.com/atorres-io/frontend-mentor-social-media-dashboard#readme",
+	"devDependencies": {
+		"sass": "^1.32.8"
+	}
+}
