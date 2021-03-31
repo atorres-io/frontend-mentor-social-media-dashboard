@@ -1,0 +1,33 @@
+@mixin alignCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin rowFlow {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+@mixin topDecoration($type) {
+	border-top-style: solid;
+	border-top-width: 5px;
+
+	@if $type == 'facebook' {
+		border-color: var(--facebook);
+	}
+
+	@if $type == 'twitter' {
+		border-color: var(--twitter);
+	}
+
+	@if $type == 'instagram' {
+		border-image-slice: 1;
+		border-image-source: var(--instagram);
+	}
+
+	@if $type == 'youtube' {
+		border-color: var(--youtube);
+	}
+}

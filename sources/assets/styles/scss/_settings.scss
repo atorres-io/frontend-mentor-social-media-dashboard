@@ -5,11 +5,33 @@
 	padding: 0;
 	outline: 0;
 	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
 }
 
 :root {
-	--dark-gray: hsl(0, 0%, 63%);
-	--black: hsl(0, 0%, 0%);
-	--white: hsl(0, 0%, 100%);
-	--dark-gray-hard: hsl(0, 0%, 27%);
+	/* Globals */
+	--positive: #1db489;
+	--negative: #dc414c;
+	--facebook: #198ff5;
+	--twitter: #1ca0f2;
+	--instagram: linear-gradient(to right, #fdc468, #df4996);
+	--youtube: #c4032a;
+	--toggle-on: linear-gradient(to right, #378fe6, #3eda82);
+	--toggle-off: #aeb3cb;
+
+	/* Light Mode */
+	--app-background: #ffffff;
+	--app-header-pattern: #f5f7ff;
+	--card-background: #f0f2fa;
+	--text-gray: #63687e;
+	--text-default: #1e202a;
+}
+
+:root[data-theme='dark'] {
+	/* Dark Mode */
+	--app-background: #1e202a;
+	--app-header-pattern: #1f212e;
+	--card-background: #252a41;
+	--text-gray: #8b97c6;
+	--text-default: #ffffff;
 }

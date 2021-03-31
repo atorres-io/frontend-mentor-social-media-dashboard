@@ -1,0 +1,80 @@
+html {
+	background-color: transparent;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	@include alignCenter;
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	background-color: var(--app-background);
+}
+
+body::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 300px;
+	background-color: var(--app-header-pattern);
+	z-index: -1;
+	user-select: none;
+	pointer-events: none;
+}
+
+main {
+	width: auto;
+	height: auto;
+	max-width: 1440px;
+	min-height: 100vh;
+	padding: 2rem;
+	background-color: transparent;
+}
+
+button,
+input,
+a,
+textarea {
+	appearance: none;
+}
+
+/* 14px , 400, 700 */
+
+h1.app__title {
+}
+
+h2.app__subtitle {
+	font-weight: 700; /* 400, 700 */
+	color: var(--text-gray);
+	margin: 0 0 1rem 1rem;
+}
+
+h3.app__dark--label {
+}
+
+h4.app__followers {
+}
+
+h1.card__xl--number {
+}
+
+h2.card__xl--title {
+}
+
+span.card__xl--username {
+}
+
+span.card__xl--percentage {
+}
+
+h1.card__md--number {
+}
+
+h2.card__md--title {
+}
+
+span.card__md--percentage {
+}

@@ -1,0 +1,43 @@
+.header {
+}
+
+.wrapper__cards--main {
+	@include rowFlow;
+	margin-bottom: 2rem;
+
+	.card {
+		width: 300px;
+		height: 280px;
+		background-color: var(--card-background);
+		border-radius: 2px;
+		margin: 1rem;
+	}
+
+	.card.facebook {
+		@include topDecoration('facebook');
+	}
+
+	.card.twitter {
+		@include topDecoration('twitter');
+	}
+
+	.card.instagram {
+		@include topDecoration('instagram');
+	}
+
+	.card.youtube {
+		@include topDecoration('youtube');
+	}
+}
+
+.wrapper__cards--secondary {
+	@include rowFlow;
+
+	.card {
+		width: 300px;
+		height: 200px;
+		background-color: var(--card-background);
+		border-radius: 2px;
+		margin: 1rem;
+	}
+}
