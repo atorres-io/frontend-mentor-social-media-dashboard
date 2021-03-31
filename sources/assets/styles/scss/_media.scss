@@ -1,0 +1,54 @@
+@media only screen and (max-width: 742px) {
+	body {
+		overflow-x: hidden;
+	}
+
+	main {
+		padding: 2rem 0;
+	}
+
+	h1.app__title {
+		font-size: 26px;
+	}
+
+	h2.app__subtitle {
+		padding: 0 2rem;
+	}
+
+	.header {
+		@include columnFlow;
+		width: 100%;
+		padding: 0 2rem;
+
+		.left {
+			width: 100%;
+			padding-bottom: 1rem;
+			margin-bottom: 1rem;
+			border-bottom: solid 1px var(--text-gray);
+		}
+
+		.right {
+			width: 100%;
+		}
+	}
+
+	.wrapper__cards--main {
+		padding: 0 1rem;
+		justify-content: center;
+
+		.card {
+			width: 100%;
+			min-width: 300px;
+		}
+	}
+
+	.wrapper__cards--secondary {
+		padding: 0 1rem;
+		justify-content: center;
+
+		.card {
+			width: 100%;
+			min-width: 300px;
+		}
+	}
+}

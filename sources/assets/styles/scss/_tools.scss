@@ -4,10 +4,30 @@
 	align-items: center;
 }
 
+@mixin alignFlow {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
 @mixin rowFlow {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+}
+
+@mixin columnFlow {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin betweenFlex {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 @mixin topDecoration($type) {

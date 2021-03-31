@@ -1,4 +1,16 @@
 .header {
+	@include alignFlow;
+	width: 100%;
+	margin-bottom: 2.5rem;
+	padding: 0 1rem;
+
+	.left {
+		flex-grow: 1;
+	}
+
+	.right {
+		@include betweenFlex;
+	}
 }
 
 .wrapper__cards--main {
@@ -6,11 +18,52 @@
 	margin-bottom: 2rem;
 
 	.card {
+		@include columnFlow;
 		width: 300px;
-		height: 280px;
+		height: 270px;
 		background-color: var(--card-background);
-		border-radius: 2px;
+		border-radius: 6px;
 		margin: 1rem;
+		padding: 1rem 2rem;
+		cursor: pointer;
+		transition: background-color 250ms ease, transform 250ms ease;
+
+		&:hover {
+			background-color: var(--card-background-hover);
+			transform: translateY(-5px);
+		}
+
+		div {
+			@include alignFlow;
+			margin-bottom: 1rem;
+
+			img {
+				width: auto;
+				height: 25px;
+				margin-right: 0.4rem;
+				user-select: none;
+			}
+		}
+
+		.positive {
+			color: var(--positive);
+
+			&:before {
+				content: url(../../images/icon-up.svg);
+				margin-right: 0.1rem;
+				user-select: none;
+			}
+		}
+
+		.negative {
+			color: var(--negative);
+
+			&:before {
+				content: url(../../images/icon-down.svg);
+				margin-right: 0.1rem;
+				user-select: none;
+			}
+		}
 	}
 
 	.card.facebook {
@@ -34,10 +87,53 @@
 	@include rowFlow;
 
 	.card {
+		@include columnFlow;
 		width: 300px;
-		height: 200px;
+		height: 150px;
 		background-color: var(--card-background);
-		border-radius: 2px;
+		border-radius: 6px;
 		margin: 1rem;
+		padding: 1rem 2rem;
+		cursor: pointer;
+		transition: background-color 250ms ease, transform 250ms ease;
+
+		&:hover {
+			background-color: var(--card-background-hover);
+			transform: translateY(-5px);
+		}
+
+		.top,
+		.bottom {
+			@include betweenFlex;
+			width: 100%;
+			height: 50%;
+			background-color: transparent;
+		}
+
+		img {
+			width: auto;
+			height: 25px;
+			user-select: none;
+		}
+
+		.positive {
+			color: var(--positive);
+
+			&:before {
+				content: url(../../images/icon-up.svg);
+				margin-right: 0.1rem;
+				user-select: none;
+			}
+		}
+
+		.negative {
+			color: var(--negative);
+
+			&:before {
+				content: url(../../images/icon-down.svg);
+				margin-right: 0.1rem;
+				user-select: none;
+			}
+		}
 	}
 }

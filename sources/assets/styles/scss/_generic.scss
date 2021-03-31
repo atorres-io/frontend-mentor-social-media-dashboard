@@ -44,37 +44,69 @@ textarea {
 /* 14px , 400, 700 */
 
 h1.app__title {
+	font-weight: 700; /* 400, 700 */
+	font-size: 30px;
+	color: var(--text-default);
 }
 
 h2.app__subtitle {
 	font-weight: 700; /* 400, 700 */
 	color: var(--text-gray);
-	margin: 0 0 1rem 1rem;
+	margin-bottom: 1rem;
+	padding: 0 1rem;
 }
 
 h3.app__dark--label {
+	font-weight: 700; /* 400, 700 */
+	font-size: 15px;
+	color: var(--text-gray);
 }
 
 h4.app__followers {
+	font-weight: 700; /* 400, 700 */
+	font-size: 14px;
+	color: var(--text-gray);
 }
 
 h1.card__xl--number {
+	font-weight: 700; /* 400, 700 */
+	font-size: 60px;
+	color: var(--text-default);
 }
 
 h2.card__xl--title {
+	font-weight: 400; /* 400, 700 */
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	color: var(--text-gray);
+	margin-bottom: 1rem;
 }
 
 span.card__xl--username {
+	font-weight: 700; /* 400, 700 */
+	font-size: 13px;
+	color: var(--text-gray);
 }
 
 span.card__xl--percentage {
+	font-weight: 700; /* 400, 700 */
+	font-size: 14px;
 }
 
 h1.card__md--number {
+	font-weight: 700; /* 400, 700 */
+	font-size: 40px;
+	color: var(--text-default);
 }
 
 h2.card__md--title {
+	font-weight: 700; /* 400, 700 */
+	font-size: 14px;
+	color: var(--text-gray);
 }
 
 span.card__md--percentage {
+	font-weight: 700; /* 400, 700 */
+	font-size: 14px;
 }
