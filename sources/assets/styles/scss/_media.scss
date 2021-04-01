@@ -52,3 +52,9 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 375px) {
+	h1.app__title {
+		font-size: 23px;
+	}
+}

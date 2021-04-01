@@ -1,5 +1,7 @@
 # Frontend Mentor - Social media dashboard with theme switcher solution
 
+<img src="https://api.netlify.com/api/v1/badges/76a3de8e-270c-4adf-89d5-3a3863da74e6/deploy-status" alt="Netlify Status">
+
 This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -26,8 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='sources/assets/images/final.app/design-desktop.png' width='640px' />
-<img src='sources/assets/images/final.app/design-mobile.png' width='220px' />
+<img src='sources/assets/images/final.app/design-desktop-light.png' width='640px' />
+<img src='sources/assets/images/final.app/design-desktop-dark.png' width='640px' />
+<img src='sources/assets/images/final.app/design-mobile-light.png' width='150px' />
+<img src='sources/assets/images/final.app/design-mobile-dark.png' width='150px' />
 
 ### Links
 
@@ -49,7 +53,11 @@ Users should be able to:
 
 ### What I learned
 
+I have improved in the more conscious use of the layout organization.
+
 ### Useful resources
+
+[Sass Guide](https://sass-lang.com/guide) - I needed to refresh certain uses of sass.
 
 ## Author
 
